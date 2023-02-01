@@ -1,15 +1,15 @@
 VARIABLES
 
-INPUT 
-numCups - (number of cups of tea required)
+INPUT:
+numCups: (number of cups of tea required)
 
-SUPPLIES: 
-doubleChaiTea - Double chai tea bags
-blackTea - Black tea bags
-kettle - Electric kettle
+SUPPLIES:
+doubleChaiTea: Double chai tea bags
+blackTea: Black tea bags
+kettle: Electric kettle
 container: (teapot, cup)
 addIns: (milk, sugar, honey)
-spoon : teaspoon
+spoon: teaspoons
 
 PROGRAM: Make strong chai tea
 
@@ -20,7 +20,7 @@ INPUT: Enter number of cups of tea required
 GET: SUPPLIES
 kettle
 addIns
-numCups doubleChaiTea, blackTea, spoon, cup 
+numCups doubleChaiTea, blackTea, spoon, cup
 IF numCups is >=  2
 THEN get container: teapot
 ELSE move to next step
@@ -47,9 +47,10 @@ ENDIF
 
 Brew for => 5 minutes
 
-IF numCups => 2 
+IF numCups => 2
 THEN pour tea from teapot into numCups cups
 ELSE move to next step
+ENDIF
 
 ADD addIns to cups as requested.
 
