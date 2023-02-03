@@ -36,36 +36,32 @@ PREPARE TEA
 - Add desired add ins into cups  
 - Stir with spoon to mix/cool tea  
 - Drink and enjoy  
-<br/>
 
 ## INIT
 
-1. INGREDIENTS - consumable items  
-    - **water** - filtered water
-    - **teaBags** 
-        - **doubleChaiTea** - Stash Double Chai Spice Tea Bags  
-        - **blackTea** - Stash English Breakfast Tea Bags  
-    - **addIns** - additional optional ingredients  
-        - **milk**  
-        - **sugar**
-        - **honey**  
-        <br/>
+1. **INGREDIENTS** - consumable items  
+    - *water* - filtered water
+    - *teaBags*  
+        - *doubleChaiTea* - Stash Double Chai Spice Tea Bags  
+        - *blackTea* - Stash English Breakfast Tea Bags  
+    - *addIns* - additional optional ingredients  
+        - *milk*  
+        - *sugar*
+        - *honey*  
 
-2. EQUIPMENT - non-consumable items  
+2. **EQUIPMENT** - non-consumable items  
 
-    - **kettle** - electric kettle to heat water
-    - **container** - a place to brew the tea  
-        - **teapot**
-        - **cup**
-    - **spoon** - teaspoons
-    - **trashCan** - vessel to dispose of waste  
-    <br/>
+    - *kettle* - electric kettle to heat water
+    - *container* - a place to brew the tea  
+        - *teapot*
+        - *cup*
+    - *spoon* - teaspoons
+    - *trashCan* - vessel to dispose of waste  
 
-3. OTHER ELEMENTS
+3. **OTHER ELEMENTS**
 
-    - **teaChef** - person making the tea  
-    - **numCups** - number of cups being made  
-    <br/>
+    - *teaChef* - person making the tea  
+    - *numCups* - number of cups being made  
 
 ## START
 
