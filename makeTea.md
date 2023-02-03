@@ -1,72 +1,106 @@
-# PROGRAM: Make strong chai tea
+# HOW TO MAKE A STRONG CHAI TEA
 
-## VARIABLES
+## ABOUT
 
-**numCups** - *number of cups of tea required*
+I love chai tea but I like mine very strong so I add an extra black tea bag and it comes out perfect!  
+Follow these steps to make a strong chai tea to enjoy.  
 
-### SUPPLIES
+## DIRECTIONS
 
-1. **doubleChaiTea** - *Double chai tea bags*
-2. **blackTea** - *Black tea bags*
-3. **kettle** - *Electric kettle*
-4. **container**
-    * 4a. **teapot**
-    * 4b. **cup**
-5. **addIns**
-    * 5a. **milk**
-    * 5b. **sugar**
-    * 5c. **honey**
-6. **spoon** - *teaspoons*
+INPUT  
+
+- Enter number of cups of tea required  
+
+GET INGREDIENTS
+
+- Gather enough ingredients for each cup of tea required  
+
+GET EQUIPMENT
+
+- If more than one cup is required get teapot and number of cups required
+
+PREPARE TEA
+
+- Fill kettle with number of required cups of water  
+- Plug in and turn on kettle  
+- Open tea bags  
+- Tie together with strings  
+- Pull off paper tab  
+- Put paper into trash  
+- Add tea bags to brew container  
+- When the water is done heating, pour into brew container  
+- Allow to brew at least 5 mins, longer if preferred  
+- Remove tea bags with spoon and squeeze over brew container  
+- Put tea bags in trash  
+- If you used the teapot pour tea into individual cups  
+- Add desired add ins into cups  
+- Stir with spoon to mix/cool tea  
+- Drink and enjoy  
+<br/>
+
+## INIT
+
+1. INGREDIENTS - consumable items  
+    - **water** - filtered water
+    - **teaBags** 
+        - **doubleChaiTea** - Stash Double Chai Spice Tea Bags  
+        - **blackTea** - Stash English Breakfast Tea Bags  
+    - **addIns** - additional optional ingredients  
+        - **milk**  
+        - **sugar**
+        - **honey**  
+        <br/>
+
+2. EQUIPMENT - non-consumable items  
+
+    - **kettle** - electric kettle to heat water
+    - **container** - a place to brew the tea  
+        - **teapot**
+        - **cup**
+    - **spoon** - teaspoons
+    - **trashCan** - vessel to dispose of waste  
+    <br/>
+
+3. OTHER ELEMENTS
+
+    - **teaChef** - person making the tea  
+    - **numCups** - number of cups being made  
+    <br/>
 
 ## START
 
-INPUT: *numCups*
-> Enter number of cups of tea required
-
-GET SUPPLIES
-
-* kettle
-* doubleChaiTea
-* blackTea
-* spoon
-* addIns
-* container  
-
-    IF *numCups* is >= 2  
-    THEN get container *teapot* and *numCups* cups
-    ELSE get container *cup*  
-    ENDIF
-
-PREPARE TEA
->Fill kettle with *numCups* of water  
->Plug in kettle  
->Start kettle  
->Open all tea bags  
->Tie all tea bags together by strings  
->Put tea bags in *container*  
-
-    IF numCups is = 1  
-    THEN put tea bags into container: cup  
-    ELSE put tea bags into container: teapot  
+input: numCups  
+getIngredients x numCups  
+getEquipment  
+    IF numCups is >= 2  
+    THEN get teapot and numCups x cups  
+    ELSE get cup  
     ENDIF  
->When kettle is done heating  
-
+fillKettle with numCups of water  
+plugInKettle  
+startKettle  
+open teaBags  
+tie teaBags  
+put teaBags in container  
     IF numCups is = 1  
-    THEN pour water into container: cup  
-    ELSE pour water into container: teapot  
+    THEN put tea bags into cup  
+    ELSE put tea bags into teapot  
     ENDIF  
+whenHot pour water into container  
+    IF numCups is = 1  
+    THEN pour water into cup  
+    ELSE pour water into teapot  
+    ENDIF  
+brew for => 5 minutes  
+remove teaBags from container  
+put teaBags in trash  
+    IF numCups => 2  
+    THEN pour tea from teapot into numCups cups  
+    ELSE move to next step  
+    ENDIF  
+add addIns to cups as requested  
+stir with spoon  
+cool
+drink
 
->Brew for => 5 minutes  
->Remove tea bags if desired  
-    
-    IF numCups => 2
-    THEN pour tea from teapot into numCups cups
-    ELSE move to next step
-    ENDIF
-
->Add addIns to cups as requested  
->Stir with spoon  
->Allow to cool to temp of choosing  
->Drink and enjoy your strong chai tea
-
-END
+## END
